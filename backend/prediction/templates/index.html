@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Sales Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+</head>
+<body>
+    <div class="cont">
+        <h1 class="head">Predict Top Menu Items</h1>
+        <form class="form" action="/predict" method="post">
+            <div class="inp">
+            <label for="weekday">Select Weekday:</label>
+            <select name="weekday" id="weekday" required>
+                <option value="" disabled selected>Select a day</option>
+            </select>
+            </div>
+            <button class="btn" type="submit">Predict</button>
+            <pre id="output"></pre>
+        </form>
+        <br>
+        <a class="back" onClick={goBack()}>Back to Home</a>
+    </div>
+    <img class="bg-img" src="/static/bimg.jpeg" alt="bg">
+
+    <script>
+    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    const select = document.getElementById("weekday");
+
+    days.forEach(day => {
+        const option = document.createElement("option");
+        option.value = day;
+        option.textContent = day;
+        select.appendChild(option);
+    });
+
+    function goBack(){
+        window.location.href = 'http://localhost:5173/';
+    }
+    
+    </script>
+
+</body>
+</html>

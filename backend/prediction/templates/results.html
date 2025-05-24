@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="cont">
+        <h1 class="head">Top Predictions for {{ weekday }}</h1>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>Item</th>
+                <th>Predicted Orders</th>
+            </tr>
+            {% for item, quantity in predictions %}
+            <tr>
+                <td>{{ item }}</td>
+                <td>{{ quantity|round|int }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br>
+        <a class="back" href="/">Back</a>
+    </div>
+    <img class="bg-img" src="/static/bimg.jpeg" alt="bg">
+</body>
+</html>
