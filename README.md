@@ -56,9 +56,9 @@ By pairing AI with compassion, we aim to:
 
 ## 🙌 Contributors
 
-Nikita Kumari (https://www.linkedin.com/in/nikita-kumari-b6bb4b33b)
-
 Pallavi Kumari (https://www.linkedin.com/in/pallavi-kumari-21920030b)
+
+Nikita Kumari (https://www.linkedin.com/in/nikita-kumari-b6bb4b33b)
 
 ---
 
