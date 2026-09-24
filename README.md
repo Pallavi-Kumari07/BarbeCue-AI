@@ -5,9 +5,7 @@ It predicts the quantity of each menu item likely to be ordered on a given weekd
 <br>
 <br>
 ### Demo Video:
-```bash
-https://youtu.be/CHAXVg2A-Dg
-```
+> https://youtu.be/CHAXVg2A-Dg
 
 <br>
 <br>
