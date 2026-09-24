@@ -2,9 +2,14 @@
 
 An intelligent platform for restaurants that combines **machine learning** with **social impact**.  
 It predicts the quantity of each menu item likely to be ordered on a given weekday based on past data, and also enables **leftover food donation** to NGOs and orphanages.
+<br>
+<br>
+### Demo Video:
+```bash
+https://youtu.be/CHAXVg2A-Dg
+```
 
----
-
+<br>
 ## 💡 Features
 
 ### 📈 Menu Prediction
@@ -21,7 +26,8 @@ It predicts the quantity of each menu item likely to be ordered on a given weekd
 - Search for nearby food donations using your **PIN code**.
 - Helps NGOs easily find donations within their area.
 
----
+
+<br>
 
 ## ⚙️ Tech Stack
 
